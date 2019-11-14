@@ -1,0 +1,16 @@
+[
+{
+  "modid": "zombievillagecontrol",
+  "name": "Zombie Village Control",
+  "description": "tweaks zombie village generation!",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["quaternary"],
+  "credits": "Your MOM!!!!",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
