@@ -10,6 +10,7 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 	modid = ZombieVillageControl.MODID,
 	name = ZombieVillageControl.NAME,
 	version = ZombieVillageControl.VERSION,
+	acceptableRemoteVersions = "*",
 	guiFactory = "quaternary.zombievillagecontrol.AAAAAAAAHHHH.AAAAAAAAAAAAAHHHHHHHHHHH"
 )
 @Mod.EventBusSubscriber
