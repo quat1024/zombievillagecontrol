@@ -45,6 +45,13 @@ public class ZombieVillageControl {
 			"If this is 'true', the zombieVillageRarity option is treated instead a chance to *not* be a zombie village. For example, if this is 'true' and zombieVillageRarity is 50, 49 out of every 50 villages will be zombie villages.\n\nSetting this to 'true' and setting zombieVillageRarity to 1 will disable zombie villages."
 		);
 		
+		Hooks.shouldBurnInDay = config.getBoolean(
+			"shouldBurnInDay",
+			"tweaks",
+			true,
+			"If this is 'false', zombie villagers will not burn in the daylight, fixing a Mojang oversight that makes them basically despawn instantly. Note that this (currently? send me a PR ;) ) affects *all* zombie villagers, since I can't tell if they were natural village spawns or not, which is why its effects are disabled by default."
+		);
+		
 		config.addCustomCategoryComment("general", "Any changes made here only affect newly generated villages.");
 		
 		if(config.hasChanged()) config.save();
